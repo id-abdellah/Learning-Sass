@@ -1,0 +1,38 @@
+// import global rules
+@use "./sass/layout/global-rules";
+
+
+
+
+/* ------------------ Variables ----------------------- */
+
+$main_color: green;
+
+.h1 {
+    color: $main_color;
+}
+
+;
+
+.h2 {
+    $main_color: black !global; // هنا بدلنا قيمة المتغير
+    color: $main_color;
+}
+
+;
+
+.h3 {
+    color: $main_color; // black
+}
+
+;
+
+// with media queries
+
+$small_devices: "max-width: 570px";
+
+@media ($small_devices) {
+    .container {
+        width: 200px;
+    }
+}

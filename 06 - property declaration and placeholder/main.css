@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/*
+ وتحدد فيه الخواص لوخرين curly brackets تقد تكتب الشورتهاند و تحل property shorthand بالنسبة لل
+*/
+.box {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "poppins";
+  font-style: italic;
+  /**/
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-left: 100px;
+  /**/
+  border: 1px solid;
+  border-left-color: black;
+  border-right-color: red;
+}
+
+/* --------------- Placeholder --------------- */
+/*
+    % ديالو label كدير قبل ال placeholder باش تقاد
+    فيه خواص placeholder قائمة على اساس انك دير placeholder فكرة ال
+    @extend placeholderName هاد الخواص تقد تستدعيهم فاي كلاس بغيتي من بعد عن طريق
+
+    و انما يقدر يكون عندك كلاس محدد تبقا تستدعي الخواص ديالو placeholder ماشي بالضرورة يكون
+*/
+.cs2, .cs1 {
+  color: white;
+  background-color: red;
+  padding: 20px;
+}
+
+.cs1 {
+  font-weight: 400;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.cs2 {
+  color: blueviolet;
+}
+
+/* يمكن لك حتا دير تستدعي خواص ديال شي عنصر ديجا موجود */
+.main-box, .subBox {
+  width: 50%;
+  height: 100%;
+}
+
+.subBox {
+  color: red;
+}

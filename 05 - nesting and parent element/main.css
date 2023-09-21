@@ -1,0 +1,81 @@
+@charset "UTF-8";
+.parent {
+  color: blue;
+}
+.parent .childe {
+  font-size: 20px;
+}
+.parent .childe .grandChilde {
+  font-weight: 400;
+}
+
+/* nesting فحالة كتي باغي تطلع شي مستوى من ال */
+.parent {
+  color: blue;
+}
+.parent .childe {
+  font-size: 20px;
+}
+.parent .grandChilde {
+  font-weight: 400;
+}
+
+/* ------------------------  ------------------------ */
+.parent-one,
+.parent-two {
+  padding: 10px;
+}
+.parent-one .childe,
+.parent-two .childe {
+  color: red;
+}
+
+/* --------------------------- direct childe -------------------------- */
+/* direct childe ك nesting هادي كتجيب غاع ال */
+.parent > .childe1 {
+  color: red;
+}
+.parent > .childe2 {
+  color: blue;
+}
+
+/* واحد لا direct child واحد */
+/* parent وواحد عنصر شقيق تالي لل */
+.parent > .childe1 {
+  color: red;
+}
+.parent .childe2 {
+  color: blue;
+}
+.parent + p {
+  font-size: 20px;
+}
+
+/* اولا تقد توسع الموضوع كتر */
+.parent > .ele-one {
+  color: red;
+}
+.parent > .ele-two {
+  color: blue;
+}
+.parent .not-directChild {
+  font-weight: 100;
+}
+
+/* --------------------------- deal with parent itself -------------------------- */
+/* كتعامل مع العنصر الاب نيشان وتقد دير بيه اي ستايل & هاد */
+.box .subox1 {
+  color: red;
+}
+.box.class2 {
+  font-size: 20px;
+}
+.box.class3 {
+  font-weight: 300;
+}
+.box:hover {
+  opacity: 0.8;
+}
+[dir=rtl] .box {
+  direction: rtl;
+}/*# sourceMappingURL=main.css.map */
