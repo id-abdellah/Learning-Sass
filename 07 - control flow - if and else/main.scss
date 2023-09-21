@@ -1,0 +1,30 @@
+/* مثلا لبغيتي تحكم فمود الصفحة */
+$theme: "light";
+
+.page {
+    @if $theme =="light" {
+        background-color: white;
+        color: black;
+    }
+
+    @else {
+        background-color: black;
+        color: white;
+    }
+}
+
+/* rounded or not اكونو cards مثلا لبغيتي ال */
+/*
+    if($rounded, 10px, null)
+    طبق القيمة لي لوسط true يعني الا كان
+    مكيدير والو compiler فاش كيلقاها ال null وبالنسبة ل null. الا لا دير
+*/
+
+$rounded: true;
+
+.box {
+    width: 100%;
+    height: 200px;
+    /* rounded */
+    border-radius: if($rounded, 10px, null);
+}

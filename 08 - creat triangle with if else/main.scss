@@ -1,0 +1,55 @@
+$arrowDirection: "left";
+
+.arrow-div {
+    border: 1px solid #ddd;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    margin: {
+        top: 30px;
+        inline: auto;
+    }
+
+    // PseudoClass
+    &::after {
+        content: "";
+        border: 20px solid transparent;
+        position: absolute;
+
+        @if $arrowDirection =="top" {
+            top: -40px;
+            left: 50%;
+            transform: translateX(-50%);
+            border-bottom-color: red;
+        }
+
+        @else if $arrowDirection =="right" {
+            right: -40px;
+            top: 50%;
+            transform: translateY(-50%);
+            border-left-color: red;
+        }
+
+        @else if $arrowDirection =="bottom" {
+            bottom: -40px;
+            left: 50%;
+            transform: translateX(-50%);
+            border-top-color: red;
+        }
+
+        @else if $arrowDirection =="left" {
+            left: -40px;
+            top: 50%;
+            transform: translateY(-50%);
+            border-right-color: red;
+        }
+
+        @else {
+            @error "This direction #{$arrowDirection} is not valid"
+        }
+    }
+}
