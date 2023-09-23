@@ -1,0 +1,6 @@
+@charset "UTF-8";
+/* فيها انواع من التعليقات sass ال */
+/* this comment will show in css file, but not in compressed mode */
+/*! this comment will show in css file, and compressed mode */
+/* the comments alsos supports interpolation => mohamed id-abdellah */
+/* ----------------------- */
