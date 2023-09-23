@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+/* ------------------- Loop for ------------------- */
+/*
+    Syntax:
+
+    - كيجيب اخر رقم from through ال
+
+        @for $i from 1 through 10 {
+            Block of code
+        }
+
+    - مكتجيبش اخر رقم from to اما ال
+
+        @for $i from 1 to 10 {
+            block of code
+        }
+*/
+/* ديالك css صراحة ناضي لكتي باغي دير مكتبة */
+.padding-0 {
+    padding: 0px;
+}
+
+.padding-1 {
+    padding: 1px;
+}
+
+.padding-2 {
+    padding: 2px;
+}
+
+.padding-3 {
+    padding: 3px;
+}
+
+.padding-4 {
+    padding: 4px;
+}
+
+.padding-5 {
+    padding: 5px;
+}
+
+.padding-6 {
+    padding: 6px;
+}
+
+.padding-7 {
+    padding: 7px;
+}
+
+.padding-8 {
+    padding: 8px;
+}
+
+.padding-9 {
+    padding: 9px;
+}
+
+.padding-10 {
+    padding: 10px;
+}
+
+/* ------------- */
+/*
+    loop مع mixin دبا انا هنايا خلطت ال
+*/
+/* بحال المعتاد عليه. فكل لوب كيزيد قيمة المتغير */
+.circle-100 {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.circle-200 {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.circle-300 {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.circle-400 {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+
+.circle-500 {
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+}
+
+.circle-600 {
+    border-radius: 50%;
+    width: 600px;
+    height: 600px;
+}
+
+.circle-700 {
+    border-radius: 50%;
+    width: 700px;
+    height: 700px;
+}
+
+.circle-800 {
+    border-radius: 50%;
+    width: 800px;
+    height: 800px;
+}
+
+.circle-900 {
+    border-radius: 50%;
+    width: 900px;
+    height: 900px;
+}
+
+.circle-1000 {
+    border-radius: 50%;
+    width: 1000px;
+    height: 1000px;
+}

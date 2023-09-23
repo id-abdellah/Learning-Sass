@@ -1,0 +1,49 @@
+/* ------------------- Loop for ------------------- */
+
+/*
+    Syntax:
+
+    - كيجيب اخر رقم from through ال
+
+        @for $i from 1 through 10 {
+            Block of code
+        }
+
+    - مكتجيبش اخر رقم from to اما ال
+
+        @for $i from 1 to 10 {
+            block of code
+        }
+*/
+
+/* ديالك css صراحة ناضي لكتي باغي دير مكتبة */
+
+@for $i from 0 through 10 {
+    .padding-#{$i} {
+        padding: #{$i}px;
+    }
+}
+
+/* ------------- */
+
+/*
+    loop مع mixin دبا انا هنايا خلطت ال
+*/
+
+/* بحال المعتاد عليه. فكل لوب كيزيد قيمة المتغير */
+
+$circleDimensions: 0;
+
+@mixin makeCircle($dimension) {
+    border-radius: 50%;
+    width: $dimension;
+    height: $dimension;
+}
+
+@for $i from 1 through 10 {
+    .circle-#{$circleDimensions + 100} {
+        @include makeCircle($circleDimensions + 100px);
+    }
+
+    $circleDimensions: $circleDimensions + 100;
+}
