@@ -1,8 +1,4 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+@use "./sass/layout/global-rules";
 
 /* ------------------ Variables ----------------------- */
 .h1 {
@@ -21,4 +17,6 @@
   .container {
     width: 200px;
   }
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=main.css.map */

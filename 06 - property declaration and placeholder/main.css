@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 /*
  وتحدد فيه الخواص لوخرين curly brackets تقد تكتب الشورتهاند و تحل property shorthand بالنسبة لل
 */
@@ -26,7 +27,8 @@
 
     و انما يقدر يكون عندك كلاس محدد تبقا تستدعي الخواص ديالو placeholder ماشي بالضرورة يكون
 */
-.cs2, .cs1 {
+.cs1,
+.cs2 {
   color: white;
   background-color: red;
   padding: 20px;
@@ -34,7 +36,7 @@
 
 .cs1 {
   font-weight: 400;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .cs2 {
@@ -42,7 +44,8 @@
 }
 
 /* يمكن لك حتا دير تستدعي خواص ديال شي عنصر ديجا موجود */
-.main-box, .subBox {
+.main-box,
+.subBox {
   width: 50%;
   height: 100%;
 }
@@ -50,3 +53,5 @@
 .subBox {
   color: red;
 }
+
+/*# sourceMappingURL=main.css.map */

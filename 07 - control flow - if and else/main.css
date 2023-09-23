@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 /* مثلا لبغيتي تحكم فمود الصفحة */
 .page {
   background-color: white;
@@ -17,3 +18,5 @@
   /* rounded */
   border-radius: 10px;
 }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+/* ---------------------- Interpolation ---------------------- */
+/* فال جافاسكريبت template literals تقرييبا دايرة بحال interpolation ال */
+.ad-falcon {
+    width: 200px;
+    background-image: url(img/falcon.png);
+    left: 20px;
+}
+
+/* generate random id كت function هاد ال */
+.ad-u007m1x8e {
+    font-weight: 400;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,17 @@
+/* ---------------------- Interpolation ---------------------- */
+
+/* فال جافاسكريبت template literals تقرييبا دايرة بحال interpolation ال */
+
+$company: "falcon";
+$position: "left";
+
+.ad-#{$company} {
+    width: 200px;
+    background-image: url(img/#{$company}.png);
+    #{$position}: 20px;
+}
+
+/* generate random id كت function هاد ال */
+.ad-#{unique-id()} {
+    font-weight: 400;
+}
