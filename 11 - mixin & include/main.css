@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/* -------------------------- Mixin & Include -------------------------- */
+/*
+    فالجافاسكريبت functions بالضبط بحالها بحال ال mixin ال
+    prameters و block of code يعني
+
+    تخدم في كلاس mixin هي لي كستعمل باش دخل @include اما ال
+
+    خاصة بيك. ولي غتوفر ليك الوقت mixins وتقد حتا تقاد مكتبة ديال ال
+*/
+/* -------------------------- */
+/* 
+    very simple example of mixin هادي 
+    لليست reset الغرض ديالها انها دير لينا
+*/
+ul {
+    /* mixin باش نستدعيو ال include كنخدمو بال */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+/* -------------------------- */
+/*
+    ثابت والابعاد كيتغيرو border-radius كيحول العنصر لدائرة. حيت ال mixin هدا
+    داكشي علاش درنا الابعاد نتا لي دخلهم يدويا وهو اوتوماتيكيا غيخدم بيهم
+    functions بالضبط بحال المبدأ ديال
+*/
+.circle-100 {
+    background-color: red;
+    /* دبال هادا كيخلي العنصر دائرة */
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    /* وهادا كيوسط العناصر لي فالداخر ديالها */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+/*
+    @use "./..." as * خارجي كمكتبة ليك فيه غا الميكسينز و دير ليهم sass وتقد حتا تقاد ملف
+*/
