@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+/* --------------------------- loop - each and map --------------------------- */
+/*
+    هدا ليستا ديال الالوان
+    فكل لوب كيخدم بلون, ولوب جاي كيخدم باللون لي تابعو وهي غادة. بحال المبدأ ديال الجافاسكريبت
+*/
+.red-theme {
+  background-color: white;
+  color: red;
+  border-bottom: 2px solid red;
+}
+
+.blue-theme {
+  background-color: white;
+  color: blue;
+  border-bottom: 2px solid blue;
+}
+
+.green-theme {
+  background-color: white;
+  color: green;
+  border-bottom: 2px solid green;
+}
+
+.orange-theme {
+  background-color: white;
+  color: orange;
+  border-bottom: 2px solid orange;
+}
+
+/* ---------------------------- */
+/*
+    Map بالنسبة لهادا فهي ال
+    key and value كيحتوي على object يعني بحال ال
+*/
+.facebook-brandColor {
+  background-color: blue;
+  color: white;
+}
+
+.youtube-brandColor {
+  background-color: red;
+  color: white;
+}
+
+.twitter-brandColor {
+  background-color: lightblue;
+  color: white;
+}
+
+.modernX-brandColor {
+  background-color: black;
+  color: white;
+}
+
+/* ---------------------------- */
+/*
+    destructuring in js اما هدا نفس المبدأ ديال ال
+*/
+.classN°One {
+  background-color: red;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.classN°Two {
+  background-color: green;
+  font-size: 40px;
+  padding: 20px;
+}
+
+.classN°Three {
+  background-color: purple;
+  font-size: 100px;
+  padding: 50px;
+}

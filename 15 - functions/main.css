@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* --------------------- functions --------------------- */
+/*
+    args بناء على قيم ال css لي قلنا انها كتشبه الفانكشن, اه بصح ولكن هي كترد خواص mixin على خلاف ال
+
+    المتعارف عليها فلغات البرمجة functions هي بالضبط بحال ال functions ال
+
+    فيه غاع الفانكشنز و تستدعيهم _functions.scss وكيما العادة تقد دير ملف
+*/
+.randomClass {
+  width: 300px;
+  height: 200px;
+}
+
+.calculateFun {
+  width: 1200px;
+}
+
+/*# sourceMappingURL=main.css.map */

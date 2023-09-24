@@ -1,0 +1,24 @@
+@use './functions' as *;
+
+/* --------------------- functions --------------------- */
+
+/*
+    args بناء على قيم ال css لي قلنا انها كتشبه الفانكشن, اه بصح ولكن هي كترد خواص mixin على خلاف ال
+
+    المتعارف عليها فلغات البرمجة functions هي بالضبط بحال ال functions ال
+
+    فيه غاع الفانكشنز و تستدعيهم _functions.scss وكيما العادة تقد دير ملف
+*/
+
+
+$size: 300px;
+
+.randomClass {
+    width: $size;
+    height: halfWidth(400px);
+}
+
+
+.calculateFun {
+    width: calculate(150px, 150px, 300px, 600px);
+}

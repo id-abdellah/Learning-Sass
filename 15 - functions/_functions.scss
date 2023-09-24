@@ -1,0 +1,17 @@
+@function halfWidth($width) {
+    @return $width / 2
+}
+
+;
+
+/// rest param
+
+@function calculate($sizes...) {
+    $total: 0;
+
+    @each $one in $sizes {
+        $total: $total + $one
+    }
+
+    @return $total
+}

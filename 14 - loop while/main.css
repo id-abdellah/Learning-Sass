@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+/* ---------------------- loop while ---------------------- */
+/*
+    while in js كيما العادة بحال
+*/
+.d-100 {
+        width: 100px;
+        height: 50px;
+}
+
+.d-200 {
+        width: 200px;
+        height: 100px;
+}
+
+.d-300 {
+        width: 300px;
+        height: 150px;
+}
+
+.d-400 {
+        width: 400px;
+        height: 200px;
+}
+
+.d-500 {
+        width: 500px;
+        height: 250px;
+}
+
+.d-600 {
+        width: 600px;
+        height: 300px;
+}
+
+.d-700 {
+        width: 700px;
+        height: 350px;
+}
+
+.d-800 {
+        width: 800px;
+        height: 400px;
+}
+
+.d-900 {
+        width: 900px;
+        height: 450px;
+}
+
+.d-1000 {
+        width: 1000px;
+        height: 500px;
+}

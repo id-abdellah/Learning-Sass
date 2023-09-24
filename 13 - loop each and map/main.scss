@@ -1,0 +1,53 @@
+/* --------------------------- loop - each and map --------------------------- */
+
+/*
+    هدا ليستا ديال الالوان
+    فكل لوب كيخدم بلون, ولوب جاي كيخدم باللون لي تابعو وهي غادة. بحال المبدأ ديال الجافاسكريبت
+*/
+
+$themes: red, blue, green, orange;
+
+@each $color in $themes {
+    .#{$color}-theme {
+        background-color: white;
+        color: $color;
+        border-bottom: 2px solid $color;
+    }
+}
+
+/* ---------------------------- */
+
+/*
+    Map بالنسبة لهادا فهي ال
+    key and value كيحتوي على object يعني بحال ال
+*/
+
+$socialsMap: (
+    "facebook": blue,
+    "youtube": red,
+    "twitter": lightblue,
+    "modernX": black
+);
+
+@each $companyName, $brandColor in $socialsMap {
+    .#{$companyName}-brandColor {
+        background-color: $brandColor;
+        color: white;
+    }
+}
+
+/* ---------------------------- */
+
+/*
+    destructuring in js اما هدا نفس المبدأ ديال ال
+*/
+
+$classes: "classN°One" 20px red, "classN°Two" 40px green, "classN°Three" 100px purple;
+
+@each $className, $fontSize, $color in $classes {
+    .#{$className} {
+        background-color: $color;
+        font-size: $fontSize;
+        padding: $fontSize / 2;
+    }
+}

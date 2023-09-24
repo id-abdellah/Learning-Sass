@@ -1,0 +1,16 @@
+/* ---------------------- loop while ---------------------- */
+
+/*
+    while in js كيما العادة بحال
+*/
+
+$start: 1;
+
+@while $start <=10 {
+    .d-#{$start * 100} {
+        width: $start * 100px;
+        height: ($start * 100px) / 2;
+    }
+
+    $start: $start + 1;
+}
